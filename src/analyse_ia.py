@@ -79,8 +79,8 @@ def analyser_offre(offre):
                 print("Réponse non JSON :", bloc.text, reponse.stop_reason)
                 return None
 
-FICHIER_OFFRES = "data/processed/offres_data_2026-10-21.json"
-FICHIER_SORTIE = "data/processed/offres_analysees_2026-10-21.json"
+FICHIER_OFFRES = "data/processed/offres_data.json"
+FICHIER_SORTIE = "data/processed/offres_analysees.json"
 
 
 def cle_offre(offre):
